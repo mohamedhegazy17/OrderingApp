@@ -10,6 +10,6 @@ WORKDIR app
 EXPOSE 83
 
 # Copy the WCF host into the container.
-COPY binToDocker/ .
+COPY bin/ .
 
 ENTRYPOINT Ordering.WindowsService.exe
